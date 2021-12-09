@@ -1,9 +1,3 @@
-# face-toolbox-keras
-
-A collection of deep learning frameworks ported to Keras for face detection, face segmentation, face parsing, iris detection, and face verification. 
-
-![](https://github.com/shaoanlu/face-toolbox-keras/raw/master/examples.jpg)
-
 ## Descriptions
 
 This repository contains deep learning frameworks that we collected and ported to Keras. We wrapped those models into separate modules that aim to provide their functionality to users within 3 lines of code.
@@ -17,12 +11,6 @@ This repository contains deep learning frameworks that we collected and ported t
   - BiSeNet model ported from [zllrunning/face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch).
 - **Eye region landmarks detection:** 
   - ELG model is ported from [swook/GazeML](https://github.com/swook/GazeML). 
-- **Face verification:** 
-  - InceptionResNetV1 model (model name: 20180402-114759) ported from [davidsandberg/facenet](https://github.com/davidsandberg/facenet). 
-  - LResNet100E-IR model ported from [deepinsight/insightface](https://github.com/deepinsight/insightface).
-  - IR50 model ported from [ZhaoJ9014/face.evoLVe.PyTorch](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch).
-- **Gender and age estimation:** 
-  - MobileNet model ported from [deepinsight/insightface](https://github.com/deepinsight/insightface).
 
 ##### *Each module follows the license of their source repo. Notice that some models were trained on dataset with non-commercial license.
 
